@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Zakat Calculator</h1>
+            <h2 >Gold Per Tola</h2>
+            <input type="text" placeholder="Enter the Gold face of Tola " value="0" id="gold">
+            <h2>Silver Per Tola</h2>
+            <input type="text" value="0" placeholder="Enter the silver face of Tola" id="silver">
+            <h2>Wealth</h2>
+            <input type="text" placeholder="Enter your wealth face of Rs." value="0" id="wealth"><br>
+            <button class="btn" onclick="calculate()">Enter</button>
+            <h2>Zakat</h2>
+            <input type="text" id="result" readonly>
+        </div>
+    </header>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

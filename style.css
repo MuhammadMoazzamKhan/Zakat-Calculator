@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/zakat.jpeg);   
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-content h1{
+    font-size: 1cm;
+    color: rgb(50 9 0);
+}
+.header-content h2 {
+    color: rgb(50 9 0);
+    font-size: 0.7cm;
+    margin: 10px auto;
+}
+.header-content input{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(53, 33, 19, 0.795);
+    font-size: large;
+    color:black;
+    border-color: black;
+}
+.header-content input:focus{
+    border-color: black;
+    color: #FFFFFF;
+    background-color: rgba(0, 0, 0, 0.336);
+}
+.btn{
+    background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+    border: 0;
+    border-radius: 12px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2.5;
+    outline: transparent;
+    padding: 0 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+.btn:hover{
+    color: #EF4765;
+}
+
